@@ -3,7 +3,7 @@ var solve = require('boolean-json-brute-force')
 var assert = require('assert')
 ```
 
-`solve` takes a [boolean-json](https://npmjs.com/packages/boolean-json-schema) argument and returns an object map from variable name to boolean value for which the expression is true.
+`solve` takes a [boolean-json](https://npmjs.com/packages/boolean-json-schema) argument and returns an object map from variable name to boolean value.
 
 ```javascript
 assert.deepEqual(
@@ -19,7 +19,7 @@ assert.deepEqual(
     b: false })
 ```
 
-Returns `undefined` for invalid expressions:
+`solve` returns `undefined` for invalid expressions:
 
 ```javascript
 assert.deepEqual(
