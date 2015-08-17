@@ -2,7 +2,7 @@
 var solve = require('boolean-json-brute-force')
 ```
 
-`solve` takes a [boolean-json](https://npmjs.com/packages/boolean-json-schema) argument and returns an object map from variable name to boolean value.
+The package exports a function of one [boolean-json](https://npmjs.com/packages/boolean-json-schema) argument. It returns an object map from variable name to boolean value.
 
 ```javascript
 var assert = require('assert')
