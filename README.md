@@ -8,15 +8,11 @@ var assert = require('assert')
 ```javascript
 assert.deepEqual(
   solve({ and: [ 'a', { and: [ 'b', { and: [ 'c', 'd' ] } ] } ] }),
-  { a: true,
-    b: true,
-	c: true,
-	d: true })
+  { a: true, b: true, c: true, d: true })
 
 assert.deepEqual(
   solve({ and: [ 'a', { not: 'b' } ] }),
-  { a: true,
-    b: false })
+  { a: true, b: false })
 ```
 
 `solve` returns `undefined` for invalid expressions:
