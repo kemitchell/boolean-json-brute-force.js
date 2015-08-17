@@ -16,7 +16,7 @@ assert.deepEqual(
   { a: true, b: false })
 ```
 
-`solve` returns `undefined` for invalid expressions:
+Or, if there is no solution, it returns `undefined`.
 
 ```javascript
 assert.deepEqual(
