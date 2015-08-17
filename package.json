@@ -1,0 +1,28 @@
+{
+  "name": "boolean-json-brute-force",
+  "description": "solve a boolean-json expression by brute force",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "boolean-json-eval": "~2.0.2",
+    "boolean-json-variables": "~2.0.1",
+    "powerset": "~0.0.1"
+  },
+  "devDependencies": {
+    "defence-cli": "~1.0.1",
+    "replace-require-self": "~1.0.0"
+  },
+  "keywords": [
+    "algebra",
+    "boolean",
+    "boolean-json",
+    "calculus",
+    "logic",
+    "solution"
+  ],
+  "license": "MIT",
+  "repository": "kemitchell/boolean-json-brute-force.js",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
