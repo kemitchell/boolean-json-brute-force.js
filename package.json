@@ -4,7 +4,7 @@
   "version": "2.0.5",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
-    "boolean-json-eval": "~2.0.2",
+    "boolean-json-eval": "^3.0.0",
     "boolean-json-variables": "~2.0.1",
     "powerset": "~0.0.1"
   },
