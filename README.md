@@ -8,18 +8,21 @@ The package exports a function of one [boolean-json](https://npmjs.com/packages/
 var assert = require('assert')
 
 assert.deepEqual(
-  solve({ and: [ 'a', 'b', 'c', 'd' ] }),
-  { a: true, b: true, c: true, d: true })
+  solve({and: ['a', 'b', 'c', 'd']}),
+  {a: true, b: true, c: true, d: true}
+)
 
 assert.deepEqual(
-  solve({ and: [ 'a', { not: 'b' }, 'c' ] }),
-  { a: true, b: false, c: true })
+  solve({and: ['a', {not: 'b'}, 'c']}),
+  {a: true, b: false, c: true}
+)
 ```
 
 Or, if there is no solution, it returns `undefined`.
 
 ```javascript
 assert.deepEqual(
-  solve({ and: [ 'a', { not: 'a' } ] }),
-  undefined)
+  solve({and: ['a', {not: 'a'}]}),
+  undefined
+)
 ```
