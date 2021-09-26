@@ -24,6 +24,7 @@
   "license": "MIT",
   "repository": "kemitchell/boolean-json-brute-force.js",
   "scripts": {
+    "test": "defence README.md | replace-require-self | node",
     "lint": "standard"
   }
 }
